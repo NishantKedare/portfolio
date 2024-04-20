@@ -27,7 +27,7 @@ const ResumeBody = () => {
           <div className="flex justify-between w-full mt-16 px-2">
             <div className="lg:text-2xl text-lg pt-1 font-bold">Experience</div>
             <a
-              href="/resume/Nishant_resume.pdf"
+              href="/portfolio/resume/Nishant_resume.pdf"
               target="_blank"
               download
               className="select-none max-lg:text-sm border-2 whitespace-nowrap py-2  w-min px-5 text-center transition-colors duration-500 font-semibold rounded-full border-blue-500 bg-blue-500 hover:bg-white text-white hover:text-black"
