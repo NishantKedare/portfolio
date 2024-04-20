@@ -36,10 +36,10 @@ const Header = () => {
             About Me
           </Link>
           <Link
-            to="/resume"
+            to="/portfolio/resume"
             className={
               "hover:text-blue-500 select-none " +
-              (currentPath == "/resume" ? "text-blue-500" : "")
+              (currentPath == "/portfolio/resume" ? "text-blue-500" : "")
             }
           >
             Resume
@@ -118,13 +118,13 @@ const Header = () => {
             About Me
           </Link>
           <Link
-            to="/resume"
+            to="/portfolio/resume"
             onClick={() => {
               setmoreOptionsButton(!moreOptionsButton);
             }}
             className={
               "hover:text-blue-500 font-bold text-2xl select-none w-min px-3 " +
-              (currentPath == "/resume" ? "text-blue-500" : "")
+              (currentPath == "/portfolio/resume" ? "text-blue-500" : "")
             }
           >
             Resume

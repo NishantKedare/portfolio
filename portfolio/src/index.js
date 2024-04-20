@@ -12,13 +12,13 @@ export default function App() {
         <Route path="/portfolio" element={<AboutMe />}>
           <Route index element={<AboutMe />} />
         </Route>
-        <Route path="/resume" element={<Resume />}>
+        <Route path="/portfolio/resume" element={<Resume />}>
           <Route index element={<Resume />} />
         </Route>
-        <Route path="/projects" element={<Project />}>
+        <Route path="/portfolio/projects" element={<Project />}>
           <Route index element={<Project />} />
         </Route>
-        <Route path="/contact" element={<Contact />}>
+        <Route path="/portfolio/contact" element={<Contact />}>
           <Route index element={<Contact />} />
         </Route>
       </Routes>

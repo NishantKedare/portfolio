@@ -74,7 +74,7 @@ const ProfileCard = () => {
             <div className="text-xl font-bold">Here's who I am & what I do</div>
             <div className="flex justify-between w-full gap-6 h-min px-10">
               <Link
-                to="/resume"
+                to="/portfolio/resume"
                 className="select-none border-2 py-1 w-1/2 text-center transition-colors duration-500 font-semibold rounded-full border-blue-500 bg-blue-500 hover:bg-white text-white hover:text-black"
               >
                 Resume
