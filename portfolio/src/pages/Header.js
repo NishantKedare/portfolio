@@ -27,10 +27,10 @@ const Header = () => {
         </div>
         <div className="flex justify-between gap-6 font-thin max-lg:hidden">
           <Link
-            to="/"
+            to="/portfolio"
             className={
               "hover:text-blue-500 select-none " +
-              (currentPath == "/" ? "text-blue-500" : "")
+              (currentPath == "/portfolio" ? "text-blue-500" : "")
             }
           >
             About Me
@@ -106,13 +106,13 @@ const Header = () => {
       >
         <div className="grid grid-rows-4 gap-14 py-14 justify-items-center bg-amber-900 bg-opacity-20">
           <Link
-            to="/"
+            to="/portfolio"
             onClick={() => {
               setmoreOptionsButton(!moreOptionsButton);
             }}
             className={
               "hover:text-blue-500 font-bold text-2xl select-none w-min whitespace-nowrap px-3 " +
-              (currentPath == "/" ? "text-blue-500" : "")
+              (currentPath == "/portfolio" ? "text-blue-500" : "")
             }
           >
             About Me
