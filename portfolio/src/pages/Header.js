@@ -45,19 +45,19 @@ const Header = () => {
             Resume
           </Link>
           <Link
-            to="/projects"
+            to="/portfolio/projects"
             className={
               "hover:text-blue-500 select-none " +
-              (currentPath == "/projects" ? "text-blue-500" : "")
+              (currentPath == "/portfolio/projects" ? "text-blue-500" : "")
             }
           >
             Projects
           </Link>
           <Link
-            to="/contact"
+            to="/portfolio/contact"
             className={
               "hover:text-blue-500 select-none " +
-              (currentPath == "/contact" ? "text-blue-500" : "")
+              (currentPath == "/portfolio/contact" ? "text-blue-500" : "")
             }
           >
             Contact
@@ -130,25 +130,25 @@ const Header = () => {
             Resume
           </Link>
           <Link
-            to="/projects"
+            to="/portfolio/projects"
             onClick={() => {
               setmoreOptionsButton(!moreOptionsButton);
             }}
             className={
               "hover:text-blue-500 font-bold text-2xl select-none w-min px-3 " +
-              (currentPath == "/projects" ? "text-blue-500" : "")
+              (currentPath == "/portfolio/projects" ? "text-blue-500" : "")
             }
           >
             Projects
           </Link>
           <Link
-            to="/contact"
+            to="/portfolio/contact"
             onClick={() => {
               setmoreOptionsButton(!moreOptionsButton);
             }}
             className={
               "hover:text-blue-500 font-bold text-2xl select-none w-min px-3 " +
-              (currentPath == "/contact" ? "text-blue-500" : "")
+              (currentPath == "/portfolio/contact" ? "text-blue-500" : "")
             }
           >
             Contact

@@ -80,7 +80,7 @@ const ProfileCard = () => {
                 Resume
               </Link>
               <Link
-                to="/projects"
+                to="/portfolio/projects"
                 className="select-none border-2 py-1 w-1/2 text-center transition-colors duration-500 font-semibold rounded-full border-black bg-white hover:bg-blue-500 hover:text-white hover:border-blue-500"
               >
                 Projects
