@@ -4,6 +4,8 @@ import TailwindImage from "../Images/Tailwind.png";
 import PostgresImage from "../Images/Postgres.png";
 import ssiLogoImage from "../Images/ssi_logo.jpg";
 import jQueryImage from "../Images/jQuery.png";
+import Livewire from "../Images/Livewire.png";
+import Alpine from "../Images/Alpine.png";
 import { useEffect } from "react";
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
@@ -146,6 +148,18 @@ const ResumeBody = () => {
                 <img src={jQueryImage} />
                 <div className="text-center mt-4 text-xl font-semibold text-blue-800">
                   jQuery
+                </div>
+              </div>
+              <div className="hover:scale-150 px-4 py-6 scale-125 transition-transform duration-500 hover:border-4 hover:rounded-2xl hover:border-[#f96da8]">
+                <img src={Livewire} />
+                <div className="text-center mt-4 text-xl font-semibold text-[#f96da8]">
+                  Laravel Livewire
+                </div>
+              </div>
+              <div className="hover:scale-150 px-4 py-6 scale-125 transition-transform duration-500 hover:border-4 hover:rounded-2xl hover:border-[#76c1d2]">
+                <img src={Alpine} />
+                <div className="text-center mt-4 text-xl font-semibold text-[#76c1d2]">
+                  Alpine js
                 </div>
               </div>
             </div>

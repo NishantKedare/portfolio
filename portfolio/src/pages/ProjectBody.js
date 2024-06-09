@@ -145,6 +145,125 @@ const ProjectBody = () => {
               </div>
             </div>
           </div>
+
+          <div
+            className={
+              "mt-16  py-14 pr-12 bg-white lg:flex lg:justify-between lg:gap-10 transition-all duration-700 " +
+              (initialTranslate ? "translate-y-0" : "translate-y-full")
+            }
+          >
+            <div className="lg:w-1/2 flex justify-between">
+              <div className="border-8 border-blue-500 w-2 h-14"></div>
+              <div className="w-full px-8">
+                <div className="text-blue-500 font-bold text-xl">
+                  AnimeDomains - A wbsite to purchase domains
+                </div>
+                <div className="whitespace-nowrap text-xl mt-4 max-lg:mt-4 font-thin">
+                  Roles Performed:
+                </div>
+                <ul className="mt-1 pl-4 list-disc text-sm font-thin">
+                  <li>Created Laravel Application</li>
+                  <li>Integeration with Stripe Payment API</li>
+                </ul>
+
+                <div className="whitespace-nowrap text-xl mt-4 max-lg:mt-4 font-thin">
+                  Tech Stack -
+                </div>
+                <ul className="mt-1 pl-4 list-disc text-sm font-thin">
+                  <li>Laravel</li>
+                  <li>Laravel Livewire</li>
+                  <li>Alpine Js</li>
+                  <li>Tailwind Css</li>
+                  <li>Stripe payment API</li>
+                </ul>
+              </div>
+            </div>
+            <div className="lg:w-1/2 max-lg:mt-6 text-sm max-lg:pl-12">
+              <div>
+                Created the Laravel website and integrated Stripe payment
+                gateway
+              </div>
+            </div>
+          </div>
+
+          <div
+            className={
+              "mt-16  py-14 pr-12 bg-white lg:flex lg:justify-between lg:gap-10 transition-all duration-700 " +
+              (initialTranslate ? "translate-y-0" : "translate-y-full")
+            }
+          >
+            <div className="lg:w-1/2 flex justify-between">
+              <div className="border-8 border-blue-500 w-2 h-14"></div>
+              <div className="w-full px-8">
+                <div className="text-blue-500 font-bold text-xl">
+                  CiteVault - A content sharing platform
+                </div>
+                <div className="whitespace-nowrap text-xl mt-4 max-lg:mt-4 font-thin">
+                  Roles Performed:
+                </div>
+                <ul className="mt-1 pl-4 list-disc text-sm font-thin">
+                  <li>Created Laravel Application</li>
+                </ul>
+
+                <div className="whitespace-nowrap text-xl mt-4 max-lg:mt-4 font-thin">
+                  Tech Stack -
+                </div>
+                <ul className="mt-1 pl-4 list-disc text-sm font-thin">
+                  <li>Laravel</li>
+                  <li>Laravel Livewire</li>
+                  <li>Alpine Js</li>
+                  <li>Laravel Livewire Volt package</li>
+                  <li>Tailwind Css</li>
+                </ul>
+              </div>
+            </div>
+            <div className="lg:w-1/2 max-lg:mt-6 text-sm max-lg:pl-12">
+              <div>Created the Laravel website</div>
+            </div>
+          </div>
+
+          <div
+            className={
+              "mt-16  py-14 pr-12 bg-white lg:flex lg:justify-between lg:gap-10 transition-all duration-700 " +
+              (initialTranslate ? "translate-y-0" : "translate-y-full")
+            }
+          >
+            <div className="lg:w-1/2 flex justify-between">
+              <div className="border-8 border-blue-500 w-2 h-14"></div>
+              <div className="w-full px-8">
+                <div className="text-blue-500 font-bold text-xl">
+                  Custom API - An api responsible to fetch data from Influx DB
+                  and send it in response to Slack Slash Command
+                </div>
+                <div className="whitespace-nowrap text-xl mt-4 max-lg:mt-4 font-thin">
+                  Roles Performed:
+                </div>
+                <ul className="mt-1 pl-4 list-disc text-sm font-thin">
+                  <li>Created Laravel Application</li>
+                </ul>
+
+                <div className="whitespace-nowrap text-xl mt-4 max-lg:mt-4 font-thin">
+                  Tech Stack -
+                </div>
+                <ul className="mt-1 pl-4 list-disc text-sm font-thin">
+                  <li>Laravel</li>
+                  <li>Laravel Livewire</li>
+                  <li>Alpine Js</li>
+                  <li>Laravel Livewire Volt package</li>
+                  <li>Tailwind Css</li>
+                  <li>Influx DB API</li>
+                  <li>Slack Slash Commands</li>
+                </ul>
+              </div>
+            </div>
+            <div className="lg:w-1/2 max-lg:mt-6 text-sm max-lg:pl-12">
+              <div>
+                Created the Laravel API, integrated Influx DB (A time series
+                database) and Slack (A Salesforce product) Slash Command
+                integrated.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
