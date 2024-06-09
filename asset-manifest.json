@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.fdf1b7cc.js",
+    "main.js": "/portfolio/static/js/main.c6ddd5f1.js",
     "static/media/Postgres.png": "/portfolio/static/media/Postgres.643d40d11f764b9df1fe.png",
     "static/media/Tailwind.png": "/portfolio/static/media/Tailwind.3549d9e451d7abb96934.png",
     "static/media/Laravel.png": "/portfolio/static/media/Laravel.2ebf4db3cc9f1b431979.png",
     "static/media/jQuery.png": "/portfolio/static/media/jQuery.5218d846e86fbcafcc5d.png",
     "static/media/React.png": "/portfolio/static/media/React.20adfb35ae6a6e5817bf.png",
     "static/media/profilePhoto.jpg": "/portfolio/static/media/profilePhoto.b0fc9d698ae7147cd44f.jpg",
+    "static/media/Livewire.png": "/portfolio/static/media/Livewire.df27cf0e2f525f8e87c9.png",
     "index.html": "/portfolio/index.html",
-    "main.fdf1b7cc.js.map": "/portfolio/static/js/main.fdf1b7cc.js.map"
+    "main.c6ddd5f1.js.map": "/portfolio/static/js/main.c6ddd5f1.js.map"
   },
   "entrypoints": [
-    "static/js/main.fdf1b7cc.js"
+    "static/js/main.c6ddd5f1.js"
   ]
 }
